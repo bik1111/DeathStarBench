@@ -28,7 +28,7 @@ spec:
       containers:
         - command:
             - ./rate
-          image: jinchoel/hotel-reservation:latest
+          image: jinchoel/hotelreservation:latest
           name: hotel-reserv-rate
           ports:
             - containerPort: 8084
